@@ -61,7 +61,6 @@ Route::delete('/job/{id}', function ($id) {
     return redirect('/jobs');
 });
 
-
 // Route::controller(JobController::class)->group(function () {
     
 // })

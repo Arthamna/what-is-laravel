@@ -7,6 +7,7 @@
     <p>
         Pays this much {{ $job['salary'] }} salary btw
     </p>
+    
 
    <x-button href="/job/{{ $job['id'] }}/edit"> Edit job </x-button> 
 </x-layout>
